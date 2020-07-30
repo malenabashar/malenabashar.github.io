@@ -2595,9 +2595,9 @@
 		#header h1 {
 			color: rgba(255, 255, 255, 0.65);
 		}
-
+		/*TODO: make avatar larger, see bottom of gif instead of top, work out colors*/
 		#header .avatar {
-			border-radius: 1000%;
+			border-radius: 100%;
 			display: inline-block;
 			margin: 0 0 2em 0;
 			padding: 0.5em;
