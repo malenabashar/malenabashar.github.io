@@ -2601,14 +2601,14 @@
 			display: inline-block;
 			margin: 0 0 2em 0;
 			padding: 0.5em;
-			border: solid 1px rgba(255, 255, 255, 0.25);
+			border: solid 0.5px rgba(255, 255, 255, 0.25);
 			background-color: rgba(255, 255, 255, 0.075);
 		}
 
 			#header .avatar img {
 				border-radius: 100%;
 				display: block;
-				width: 10em;
+				width: 100em;
 			}
 
 		@media screen and (max-width: 1280px) {
