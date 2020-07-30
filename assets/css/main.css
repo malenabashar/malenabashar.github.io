@@ -2597,7 +2597,7 @@
 		}
 
 		#header .avatar {
-			border-radius: 100%;
+			border-radius: 1000%;
 			display: inline-block;
 			margin: 0 0 2em 0;
 			padding: 0.5em;
@@ -2606,7 +2606,7 @@
 		}
 
 			#header .avatar img {
-				border-radius: 3000%;
+				border-radius: 100%;
 				display: block;
 				width: 10em;
 			}
