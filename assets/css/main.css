@@ -1416,7 +1416,7 @@
 		background-position: top center;
 		*/
 	    background-image: url('/images/city.gif');
-	    background-size: cover;
+	    background-size: contain;
 		background-position: bottom center;
 	}
 
