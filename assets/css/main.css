@@ -1617,7 +1617,7 @@
 	}
 
 	header p {
-		color: #38427D;
+		color: rgba(255, 255, 255, 0.35);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2593,7 +2593,7 @@
 	}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.65);
+			color: #38427D;
 		}
 		/*TODO: make avatar larger, see bottom of gif instead of top, work out colors*/
 		#header .avatar {
