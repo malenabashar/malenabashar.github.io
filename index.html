@@ -1,57 +1,15 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Naeem Hossain by TEMPLATED</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu+Mono:300,600,700"
-	    rel="stylesheet" type="text/css">
-	    <link href="view/css/bootstrap.min.css" rel="stylesheet">
-	    <link href="view/style.css" rel="stylesheet">
-	    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
-	    <link href="favicon.ico" rel="icon" type="image/x-icon"><!--[if lt IE 9]-->
-	    <!-- Begin Inspectlet Embed Code. Dashboard is online -->
+---
+layout: default
+---
 
-	    <script id="inspectletjs" type="text/javascript">
-	        window.__insp = window.__insp || [];
-	            __insp.push(['wid', 1942666999]);
-	            (function() {
-	            function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
-	            document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', __ldinsp) : window.addEventListener('load', __ldinsp, false)) : __ldinsp();
-
-	            })();
-	    </script><!-- End Inspectlet Embed Code -->
-	</head>
-	<body>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Header -->
-					<header id="header">
-						<h1>Welcome! My name is <strong>Naeem Hossain</strong>. I'm an SRE with experience in various operational disciplines (listed below). My <a href="https://docs.google.com/document/d/1d-88RdBhhV0KIrwrXidZa6YKKApXPO1EpkB2Vez7Lf0/preview">Resume</a><br/></h1>
-						<span class="avatar"><img src="images/wine_nemo2.jpeg" alt="" /></span>
-						<ul class="icons">
-							<li><a href="https://twitter.com/Nakjeem" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="www.linkedin.com/in/naeem-hossain              " class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/naeemH" class="icon style2 fa-github"><span class="label">Github</span></a></li>
-							<li><a href="naeemhossain.mail@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-					</header>
-
-				<!--
-					<footer id="footer">
-						<p>TMP<a href="http://templated.co">TMP<a href="http://unsplash.com">TMP</a>.</p>
-					</footer>
-				-->
-
-			</div> 
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+<div id="site">
+  {% include switch.html %}
+  {% include intro.html %}
+  {% include background.html %}
+  {% include skills.html %}
+  {% include experience.html %}
+  {% include featured-projects.html %}
+  {% include other-projects.html %}
+  {% include footer.html %}
+  {% include top-button.html %}
+</div>
