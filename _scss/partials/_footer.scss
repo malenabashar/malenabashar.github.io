@@ -4,13 +4,13 @@
   justify-content: space-between;
   align-items: center;
   @include desktop {
-    padding: 50px;
+    padding: 0px;
   }
   @include weird-medium {
     display: block;
   }
   @include mobile {
-    padding: 50px 30px;
+    padding: 0px 0px;
   }
   &__copyright {
     font-weight: 700;
