@@ -46,10 +46,10 @@
       color: $blue !important;
       text-transform: uppercase;
       font-weight: 700;
-      margin: 0 0px;
+      margin: 0 15px;
       outline: none;
       @include desktop {
-        margin: 0 0px;
+        margin: 0 10px;
       }
       &:after {
         position: absolute;
