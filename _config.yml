@@ -10,17 +10,17 @@ logo: https://NaeemH.github.io/img/emojis/technologist.png
 resume: https://NaeemH.github.io/resume.pdf
 social:
   - title: email
-    url: mailto:brittany.chiang@gmail.com
+    url: mailto:naeemhossain.mail@gmail.com
   - title: twitter
-    url: https://twitter.com/NaeemH
+    url: https://twitter.com/Nakjeem
   - title: instagram
-    url: https://instagram.com/NaeemH
+    url: https://instagram.com/hackernemo
   - title: codepen
     url: http://codepen.io/NaeemH
   - title: github
     url: https://github.com/NaeemH
   - title: linkedin
-    url: https://www.linkedin.com/in/NaeemH
+    url: https://www.linkedin.com/in/naeem-hossain
 
 # Build settings
 markdown: kramdown
