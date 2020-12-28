@@ -1,16 +1,16 @@
 .footer {
-  padding: 0px 80px;
+  padding: 50px 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   @include desktop {
-    padding: 0px;
+    padding: 50px;
   }
   @include weird-medium {
     display: block;
   }
   @include mobile {
-    padding: 0px 0px;
+    padding: 50px 30px;
   }
   &__copyright {
     font-weight: 700;
@@ -93,10 +93,7 @@
 }
 li div{
     #vertical-align:top;
-    #margin-left: 0;
-    #display: flex; 
-    #justify-content: flex-end;
-    #margin-right: auto;
+    #margin-left: 0; 
     #position: relative;
     #top: -20px;
     #left: -20px;
