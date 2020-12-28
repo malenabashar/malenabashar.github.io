@@ -46,10 +46,10 @@
       color: $blue !important;
       text-transform: uppercase;
       font-weight: 700;
-      margin: 0px 10px 0px 0px;
+      margin: 0 15px;
       outline: none;
       @include desktop {
-        margin: 0px 10px 0px 0px;
+        margin: 0 10px;
       }
       &:after {
         position: absolute;
@@ -93,7 +93,7 @@
 }
 li div{
     #vertical-align:top;
-    margin-left: 0; 
+    #margin-left: 0; 
     #position: relative;
     #top: -20px;
     #left: -20px;
