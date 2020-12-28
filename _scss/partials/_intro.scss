@@ -1,5 +1,5 @@
 .intro {
-  padding: 120px 100px;
+  padding: 120px 10px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -103,7 +103,6 @@
   &__contact {
     font-size: 1.25rem;
     font-weight: 400;
-    padding-bottom: 0px;
     @include phablet {
       font-size: 1rem;
     }
