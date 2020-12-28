@@ -1,0 +1,45 @@
+# Site settings
+name: Naeem Hossain
+title: Naeem Hossain | Systems & Software Engineer
+description: I automate technical debt, ensure our distributed fleet is running, and write too many config files
+url: https://NaeemH.github.io/
+baseurl: ''
+email: naeemhossain.mail@gmail.com
+cover: https://NaeemH.github.io/img/og.png
+logo: https://NaeemH.github.io/img/emojis/technologist.png
+resume: https://NaeemH.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:naeemhossain.mail@gmail.com
+  - title: twitter
+    url: https://twitter.com/Nakjeem
+  - title: instagram
+    url: https://instagram.com/hackernemo
+  - title: codepen
+    url: http://codepen.io/NaeemH
+  - title: github
+    url: https://github.com/NaeemH
+  - title: linkedin
+    url: https://www.linkedin.com/in/naeem-hossain
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
