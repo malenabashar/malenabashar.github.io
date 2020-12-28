@@ -16,9 +16,19 @@
     </span>
   </h3>
 </header>
-<tmp class="tmp_links">
-  <div class="tmp__copyright">
-    <div class="tmp__links">
+<footer class="footer">
+  <div class='li'>
+    <div class="footer__copyright">
+      <div class="top">
+        <span></span>
+      </div>
+      <div class="bottom">
+        <span>Brittany Chiang</span>
+        <img class="emoji" src="{{site.baseurl}}/img/emojis/rockon.png" alt="emoji">
+        <span>2018</span>
+      </div>
+    </div>
+    <div class="footer__links">
       {% for link in site.social %}
       <a href="{{link.url}}" target="_blank" title="{{link.title}}">
         <span class="text">{{link.title}}</span>
@@ -27,7 +37,7 @@
       {% endfor %}
     </div>
   </div>
-</tmp>
+</footer>
 
 <!--
 <footer class="footer">
