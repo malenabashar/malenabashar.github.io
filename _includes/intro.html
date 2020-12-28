@@ -14,5 +14,11 @@
     <span>
       <a href="mailto:naeemhossain.mail@gmail.com" target="_blank" class="highlight-link">naeemhossain.mail@gmail.com</a>
     </span>
+    {% for link in site.social %}
+    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+      <span class="text">{{link.title}}</span>
+      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
+    </a>
+    {% endfor %}
   </h3>
 </header>
