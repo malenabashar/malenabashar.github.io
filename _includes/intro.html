@@ -16,16 +16,18 @@
     </span>
   </h3>
 </header>
-<footer class="top_links">
-  <div class="top_links__links">
-    <!-- <div style="display: flex; justify-content: start; vertical-align: top;"> -->
-    <!-- <div style="display: flex; padding top: 0px; justify-content: start;"> -->
-      {% for link in site.social %}
-      <a href="{{link.url}}" target="_blank" title="{{link.title}}">
-        <span class="text">{{link.title}}</span>
-        <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
-      </a>
-      {% endfor %}
+<footer class="footer">
+  <div class="footer__copyright">
+    <div class="top">
+      <div class="footer__links">
+        {% for link in site.social %}
+        <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+          <span class="text">{{link.title}}</span>
+          <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
+        </a>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </footer>
 
