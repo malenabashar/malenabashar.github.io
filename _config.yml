@@ -9,8 +9,8 @@ cover: https://NaeemH.github.io/img/og.png
 logo: https://NaeemH.github.io/img/emojis/technologist.png
 resume: https://docs.google.com/document/d/1d-88RdBhhV0KIrwrXidZa6YKKApXPO1EpkB2Vez7Lf0/preview
 social:
-  - title: email
-    url: mailto:naeemhossain.mail@gmail.com
+  - title: resume
+    url: https://docs.google.com/document/d/1d-88RdBhhV0KIrwrXidZa6YKKApXPO1EpkB2Vez7Lf0/preview
   - title: twitter
     url: https://twitter.com/Nakjeem
 #  - title: instagram
@@ -21,9 +21,9 @@ social:
     url: https://github.com/NaeemH
   - title: linkedin
     url: https://www.linkedin.com/in/naeem-hossain
-  - title: resume
-    url: https://docs.google.com/document/d/1d-88RdBhhV0KIrwrXidZa6YKKApXPO1EpkB2Vez7Lf0/preview
-
+  - title: email
+    url: mailto:naeemhossain.mail@gmail.com
+    
 # Build settings
 markdown: kramdown
 
