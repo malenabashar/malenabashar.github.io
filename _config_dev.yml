@@ -21,8 +21,8 @@ social:
     url: https://github.com/NaeemH
   - title: linkedin
     url: https://www.linkedin.com/in/naeem-hossain
-#  - title: resume
-#    url: https://docs.google.com/document/d/1d-88RdBhhV0KIrwrXidZa6YKKApXPO1EpkB2Vez7Lf0/preview
+  - title: resume
+    url: https://docs.google.com/document/d/1d-88RdBhhV0KIrwrXidZa6YKKApXPO1EpkB2Vez7Lf0/preview
 
 # Build settings
 markdown: kramdown
