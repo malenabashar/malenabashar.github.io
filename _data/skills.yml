@@ -1,33 +1,31 @@
 languages:
-  - item: JavaScript (ES6)
-  - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
-  - item: Python
-  - item: SQL
-  - item: R
-
-frameworks:
-  - item: Ember & Glimmer
-  - item: React
-  - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
-
-tools:
+  - item: Python (2.7, 3.x)
   - item: Bash
-  - item: Git & Github
-  - item: Gulp & Grunt
-  - item: Chrome DevTools
-  - item: Postman
-  - item: MongoDB
+  - item: Java
+  - item: HTML / CSS
+  - item: C
+  - item: MySQL / PostgreSQL
+  - item: JavaScript (ES6)
 
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+dm:
+  - item: Kubernetes
+  - item: Docker
+  - item: Puppet
+  - item: NFS / Ceph
+  - item: Artifactory
+  - item: OpenSUSE Build Service
+
+wm:
+  - item: Git (Github, Bitbucket)
+  - item: Nagios / Opsgenie
+  - item: Prometheus
+  - item: Grafana / SumoLogic
+  - item: Jira / Confluence
+  - item: Slack / Hipchat
+  - item: Jenkins
+
+ose:
+  - item: Windows
+  - item: macOS
+  - item: Ubuntu (14.04 - 20.04)
+  - item: RHEL (CentOS 6.9)
