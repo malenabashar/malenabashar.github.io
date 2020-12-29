@@ -1654,7 +1654,21 @@
 		font-size: 0.9em;
 		margin-top: -0.6em;
 	}
+	/*TODO: make avatar larger, see bottom of gif instead of top, work out colors*/
+	#header .avatar {
+		border-radius: 100%;
+		display: inline-block;
+		margin: 0 0 2em 0;
+		padding: 0.5em;
+		border: solid 0.5px rgba(255, 255, 255, 0.25);
+		background-color: rgba(255, 255, 255, 0.075);
+	}
 
+		#header .avatar img {
+			border-radius: 100%;
+			display: block;
+			width: 10em;
+		}
 /* Form */
 
 	form {
@@ -2657,3 +2671,33 @@
 			}
 
 		}
+		
+/* Wrapper */
+
+	#wrapper {
+		max-width: 68em;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 2em;
+		opacity: 1;
+		filter: none;
+		-moz-transition: opacity 1s ease, -moz-filter 1s ease;
+		-webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
+		-ms-transition: opacity 1s ease, -ms-filter 1s ease;
+		transition: opacity 1s ease, filter 1s ease;
+	}
+
+	body.is-loading #wrapper {
+		opacity: 0;
+		-moz-filter: blur(1px);
+		-webkit-filter: blur(1px);
+		-ms-filter: blur(1px);
+		filter: blur(1px);
+	}
+
+	body.is-covered #wrapper {
+		-moz-filter: blur(3px);
+		-webkit-filter: blur(3px);
+		-ms-filter: blur(3px);
+		filter: blur(3px);
+	}
