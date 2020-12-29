@@ -40,6 +40,13 @@
 		list-style: none;
 	}
 
+	ul.a {
+		/* text-indent: 10%; */
+		margin: 0;
+   		padding: 1em; /* Set the distance from the list edge to 1x the font size */
+		list-style-type: circle;
+	}
+
 	blockquote, q {
 		quotes: none;
 	}
@@ -2627,10 +2634,6 @@
 			}
 
 		}
-
-	ul.a {
-	  text-indent: 10%;
-	}
 
 /* Footer */
 
