@@ -2628,6 +2628,10 @@
 
 		}
 
+	ul.a {
+	  text-indent: 10%;
+	}
+
 /* Footer */
 
 	#footer {
