@@ -1,31 +1,23 @@
 languages:
   - item: Python (2.7, 3.x)
+  - item: SQL 
   - item: Bash
-  - item: Java
+  - item: Powershell
   - item: HTML / CSS
-  - item: C
-  - item: MySQL / PostgreSQL
-  - item: JavaScript (ES6)
+  - item: PHP
+  - item: MATLAB
+  - item: C#
+  - item: Java
+  - item: C++ 
 
-dm:
-  - item: Kubernetes
-  - item: Docker
-  - item: Puppet
-  - item: NFS / Ceph
-  - item: Artifactory
-  - item: OpenSUSE Build Service
+<-- dm:
+  - item: -->!
 
 wm:
-  - item: Git (Github, Bitbucket)
-  - item: Nagios / Opsgenie
-  - item: Prometheus
-  - item: Grafana / SumoLogic
+  - item: Git (Github)
   - item: Jira / Confluence
   - item: Slack / Hipchat
-  - item: Jenkins
 
 ose:
   - item: Windows
   - item: macOS
-  - item: Ubuntu (14.04 - 20.04)
-  - item: RHEL (CentOS 6.9)
