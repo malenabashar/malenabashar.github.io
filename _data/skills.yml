@@ -10,9 +10,6 @@ languages:
   - item: Java
   - item: C++ 
 
-<-- dm:
-  - item: -->!
-
 wm:
   - item: Git (Github)
   - item: Jira / Confluence
