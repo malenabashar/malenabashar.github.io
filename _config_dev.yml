@@ -1,28 +1,28 @@
 # Site settings
-name: Naeem Hossain
-title: Naeem Hossain | Systems & Software Engineer
-description: I automate technical debt, ensure our distributed fleet is running, and write too many config files
-url: https://NaeemH.github.io/
+name: Malena Bashar
+title: Malena Bashar | Computer Engineer
+description: I oversee vulnerabilities, automate technical debt, and document workflows.
+url: https://malenabashar.github.io/
 baseurl: ''
-email: naeemhossain.mail@gmail.com
-cover: https://NaeemH.github.io/img/og2.png
-logo: https://NaeemH.github.io/images/favicon.ico
-resume: https://docs.google.com/document/d/1d-88RdBhhV0KIrwrXidZa6YKKApXPO1EpkB2Vez7Lf0/preview
+email: malenabashar.mail@gmail.com
+cover: 
+logo: https://malenabashar.github.io/images/favicon.ico
+resume: https://docs.google.com/document/d/15F0iTz2M-Q8R6sdh8eNi4htlfKTLCixtSPxbXzhvf2Q/edit?usp=sharing
 social:
   - title: resume
-    url: https://docs.google.com/document/d/1d-88RdBhhV0KIrwrXidZa6YKKApXPO1EpkB2Vez7Lf0/preview
-  - title: twitter
-    url: https://twitter.com/Nakjeem
+    url: https://docs.google.com/document/d/15F0iTz2M-Q8R6sdh8eNi4htlfKTLCixtSPxbXzhvf2Q/edit?usp=sharing
+#  - title: twitter
+#    url: https://twitter.com/Nakjeem
 #  - title: instagram
 #    url: https://instagram.com/hackernemo
 #  - title: codepen
 #    url: http://codepen.io/NaeemH
   - title: github
-    url: https://github.com/NaeemH
+    url: https://github.com/malenabashar
   - title: linkedin
-    url: https://www.linkedin.com/in/naeem-hossain
+    url: https://www.linkedin.com/in/malenabashar
   - title: email
-    url: mailto:naeemhossain.mail@gmail.com
+    url: mailto:malenabashar.mail@gmail.com
 
 # Build settings
 markdown: kramdown
