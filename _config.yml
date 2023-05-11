@@ -1,12 +1,12 @@
 # Site settings
 name: Malena Bashar
 title: Malena Bashar | Software Engineer
-description: I automate technical debt, ensure our distributed fleet is running, and write too many config files
+description: I oversee vulnerabilities, automate technical debt, and document workflows.
 url: https://malenabashar.github.io/
 baseurl: ''
 email: malenabashar.mail@gmail.com
 cover: https://NaeemH.github.io/img/og2.png
-logo: https://NaeemH.github.io/images/favicon.ico
+logo: https://malenabashar.github.io/images/favicon.ico
 resume: https://docs.google.com/document/d/15F0iTz2M-Q8R6sdh8eNi4htlfKTLCixtSPxbXzhvf2Q/edit?usp=sharing
 social:
   - title: resume
